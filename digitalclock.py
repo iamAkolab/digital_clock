@@ -16,7 +16,7 @@ def time():
     lbl.after(1000, time)
 
 #styling the label widget which displays the clock
-lbl = Label(root, font = "arial", 160, "bold", bg = "black", fg = "white")
+lbl = Label(root, font = ("arial", 160, "bold"), bg = "black", fg = "white")
 
 # pack method in tkinter pcks widgets into rows or columns, 
 lbl.pack(anchor="center", fill="both", expand = 1)
